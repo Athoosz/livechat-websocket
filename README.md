@@ -78,17 +78,17 @@ para testar a funcionalidade do chat.
 
 A estrutura do projeto é organizada de forma a facilitar a navegação e o entendimento do código. Abaixo estão os principais componentes e suas responsabilidades:
 
-#### **Configurações de WebSocket**
+#### **Config**
 - **WebSocketConfig.java**: Contém as configurações para habilitar e configurar o WebSocket na aplicação.
 
 #### **Controllers**
 - **LiveChatController.java**: Controlador responsável por gerenciar as operações do chat ao vivo, como envio e recebimento de mensagens.
 
-#### **Modelos**
+#### **Models**
 - **ChatInput.java**: Representa o modelo de entrada de uma mensagem de chat, contendo o texto e o remetente.
 - **ChatOutput.java**: Representa o modelo de saída de uma mensagem de chat, contendo o texto da resposta e o remetente.
 
-#### **Aplicação Principal**
+#### **App**
 - **LivechatmsApplication.java**: Classe principal que inicializa a aplicação Spring Boot e configura os componentes necessários para o funcionamento do chat.
 
 ---
