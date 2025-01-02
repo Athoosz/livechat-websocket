@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #1e1f33;
+    color: #f0f0f5;
+    font-family: "Montserrat", serif;
+}
+
+#main-content {
+    margin-top: 50px;
+    background-color: #292a45;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+h2 {
+    color: #ffa500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ffa500;
+    background-color: #202135;
+    color: #f0f0f5;
+}
+
+.form-control:focus {
+    background-color: #202135; 
+    color: #f0f0f5;
+}
+
+.form-control::placeholder {
+    color: #a6a6c1;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-connect {
+    background-color: #32cd32;
+    color: #1e1f33;
+}
+
+.btn-connect:hover {
+    background-color: #2eb82e;
+}
+
+.btn-disconnect {
+    background-color: #ff4500;
+    color: #1e1f33;
+}
+
+.btn-disconnect:hover {
+    background-color: #e03e00;
+}
+
+.btn-send {
+    background-color: #ffa500;
+    color: white;
+}
+
+.btn-send:hover {
+    background-color: #e79b0f;
+}
+
+.btn-send:active {
+    background-color: #cc8400; 
+}
+
+.btn:disabled {
+    background-color: #6c757d;
+}
+
+#message-input {
+    margin-top: 20px;
+}
+
+#message-input input {
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: calc(100% - 120px);
+    margin-right: 10px;
+    background-color: #202135;
+    color: #f0f0f5;
+    border: 1px solid #ffa500;
+}
+
+#message-input button {
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+#conversation {
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#conversation th {
+    background-color: #ffa500;
+    color: #ffffff;
+    text-align: center;
+}
+
+#conversation td {
+    background-color: #343654;
+    color: #f0f0f5;
+    padding: 10px;
+}
+
+#conversation tr:nth-child(even) {
+    background-color: #404267;
+}
+
+#conversation tr:hover {
+    background-color: #4d4f7a;
+}
+
+#livechat {
+    font-size: 16px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-text {
+    font-size: 16px;
+    color: #f0f0f5;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #a6a6c1;
+    margin-top: 5px;
+    text-align: right;
+}
